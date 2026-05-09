@@ -1,13 +1,73 @@
-<!doctype html>
-<html>
+<!--
+MIT License
+
+Copyright (c) 2026 ldap-toolz contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+
+﻿<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>LDAP Filter Tools</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LDAP Filter Tools - Builder, Parser, Validator and Formatter</title>
+    <meta name="description" content="Free browser-based LDAP filter tools for building, validating, parsing, formatting, escaping and learning LDAP search filters.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://karel66.github.io/ldap-toolz/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="LDAP Filter Tools">
+    <meta property="og:description" content="Build, validate, parse, format and inspect LDAP search filters in your browser.">
+    <meta property="og:url" content="https://karel66.github.io/ldap-toolz/">
+    <meta property="og:image" content="https://karel66.github.io/ldap-toolz/favicon.png">
+    <meta name="twitter:card" content="summary">
+    <link rel="icon" href="./favicon.ico" sizes="any">
+    <link rel="icon" href="./favicon.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="./favicon.png" type="image/png" sizes="16x16">
+    <link href="./app.css" rel="stylesheet" />
+    <script src="./theme.js" defer></script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "LDAP Filter Tools",
+        "url": "https://karel66.github.io/ldap-toolz/",
+        "description": "Browser-based tools for building, validating, parsing and formatting LDAP search filters."
+    }
+    </script>
 </head>
 <body>
-  <h1>LDAP FIlter Tools</h1>
-  <ul>
-    <li><a href="/ldap-toolz/">LDAP Filter Tools</a></li>
-  </ul>
+    <div class="container">
+        <div class="mb-4">
+            <h1>LDAP Filter Tools</h1>
+            <p class="text-muted">
+                Build, validate, format and inspect LDAP filters.
+            </p>
+        </div>
+        <a href="./ldap-toolz/builder.html" class="btn btn-primary me-2 mb-2">Go to LDAP Filter Builder</a>
+        <a href="./ldap-toolz/parser.html" class="btn btn-primary me-2 mb-2">Go to LDAP Filter Parser</a>
+    </div>
+    <div id="cookie-banner">
+        This site uses analytics cookies.
+        <button id="accept-cookies" class="btn btn-primary">Accept</button>
+        <button id="decline-cookies" class="btn btn-secondary">Decline</button>
+    </div>
+    <script src="./ga.js"></script>
 </body>
 </html>
